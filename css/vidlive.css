@@ -1,0 +1,55 @@
+.vidlive-panel h3 {
+	font-size: 16px; 
+	font-weight: 600;
+    margin: 0.5em 0;
+}
+	
+.vidlive-panel p {
+	margin-top: 7px; 
+	color: #444;	
+}
+
+.vidlive-panel {
+	position: relative; 
+	overflow: auto; 
+	margin-top: 10px; 
+	border: 1px solid #ccd0d4; 
+	box-shadow: 0 1px 1px rgba(0,0,0,.04); 
+	background: #fff; 
+	font-size: 13px;	
+}
+
+.close-btn {
+	position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px 10px 21px;
+    font-size: 13px;
+    line-height: 1.23076923;
+    text-decoration: none;
+}
+
+.close-btn:before {
+    background: 0 0;
+    color: #72777c;
+    content: "\f153";
+    display: block;
+    font: normal 16px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    margin-right: 15px !important;
+    -webkit-font-smoothing: antialiased;
+    }
+    
+.close-btn:before {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    transition: all .1s ease-in-out;
+}    
+
+.close-btn:before {
+    margin: 0;
+}
